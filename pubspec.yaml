@@ -1,0 +1,46 @@
+name: udemy_course_i_am_rich
+description: A new Flutter project.
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  carousel_pro: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+   - assets/
+  
+  fonts:
+    - family: Earwig
+      fonts:
+        - asset: assets/fonts/earwig factory rg.ttf
+    - family: Stroker
+      fonts:
+        - asset: assets/fonts/James Stroker.ttf
+    - family: Wave
+      fonts:
+        - asset: assets/fonts/Wave Attack - Demo.ttf
+    - family: Curve
+      fonts:
+        - asset: assets/fonts/learning_curve_bold_ot_tt.ttf
+        
+    
+ 
+  
