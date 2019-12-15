@@ -3,6 +3,7 @@ import 'package:udemy_course_i_am_rich/screens/Projects_no_back.dart';
 import 'package:udemy_course_i_am_rich/screens/home.dart';
 import 'package:udemy_course_i_am_rich/screens/about_me.dart';
 import 'package:udemy_course_i_am_rich/screens/contact.dart';
+import 'package:flutter/cupertino.dart';
 
 
 void main() => runApp(MyApp());

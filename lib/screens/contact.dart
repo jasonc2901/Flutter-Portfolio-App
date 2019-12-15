@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:udemy_course_i_am_rich/screens/contactCard.dart';
 
 class Contact extends StatefulWidget{
   @override
@@ -14,6 +15,7 @@ class _ContactState extends State<Contact>{
         title: new Text('Contact Me'),
         backgroundColor: Color.fromRGBO(31,31,31,100),
       ),
+     body: ContactCard()
     );
   }
 }

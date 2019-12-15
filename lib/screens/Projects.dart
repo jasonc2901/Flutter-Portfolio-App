@@ -14,7 +14,7 @@ class _Projects_state extends State<Projects> {
   @override
   Widget build(BuildContext context){
     return Scaffold(
-      backgroundColor: Color.fromRGBO(80, 80, 80,100),
+      backgroundColor: Colors.grey[800],
       appBar: new AppBar(
         title: new Text("My Projects"),
         backgroundColor: Color.fromRGBO(31,31,31,100),
@@ -35,51 +35,6 @@ class _Projects_state extends State<Projects> {
         padding: EdgeInsets.fromLTRB(10, 0, 20, 0),
         child: ListView(
           children: <Widget>[
-            Card(
-              elevation: 6.0,
-              child: Container(
-                decoration: BoxDecoration(
-                  color: Colors.white,
-                  borderRadius: BorderRadius.all(
-                    Radius.circular(5.0),
-                  ),
-                ),
-                child: TextField(
-                  style: TextStyle(
-                    fontSize: 15.0,
-                    color: Colors.black,
-                  ),
-                  decoration: InputDecoration(
-                    contentPadding: EdgeInsets.all(10.0),
-                    border: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(5.0),
-                      borderSide: BorderSide(color: Colors.white,),
-                    ),
-                    enabledBorder: OutlineInputBorder(
-                      borderSide: BorderSide(color: Colors.white,),
-                      borderRadius: BorderRadius.circular(5.0),
-                    ),
-                    hintText: "Search..",
-                    prefixIcon: Icon(
-                      Icons.search,
-                      color: Colors.black,
-                    ),
-                    suffixIcon: Icon(
-                      Icons.filter_list,
-                      color: Colors.black,
-                    ),
-                    hintStyle: TextStyle(
-                      fontSize: 15.0,
-                      color: Colors.black,
-                    ),
-                  ),
-                  maxLines: 1,
-                  controller: _searchControl,
-                ),
-              ),
-            ),
-
-
             SizedBox(height: 10.0),
 
             ListView.builder(
@@ -92,6 +47,7 @@ class _Projects_state extends State<Projects> {
 
                 return ViewAll(
                   img: project["img"],
+                  backgroundImg: project["backgroundImg"],
                   title: project["title"],
                   description: project["description"],
                   brief: project["brief"],

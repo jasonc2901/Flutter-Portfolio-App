@@ -112,7 +112,7 @@ class me_summary extends StatelessWidget {
            )
           : null,
      child: new Container(
-      padding: EdgeInsets.only(top: 190,left: 10,right: 10,bottom: 30),
+      padding: EdgeInsets.only(top: 0,left: 10,right: 10,bottom: 30),
         child: new Stack(
          children: <Widget>[
             new Padding(
