@@ -1,16 +1,9 @@
-# udemy_course_i_am_rich
+# My portfolio App
 
 A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is my first real experience with creating an app with Flutter. I tried to essentially turn my website "www.jasoncaughers.com" into a mobile app for both IOS and Android Platforms. 
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The main purpose with this app was to gain key skills using flutter so I will be able to use this framework going forward in my career.
