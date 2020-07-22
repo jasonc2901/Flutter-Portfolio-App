@@ -1,9 +1,11 @@
 # My portfolio App
 
-A new Flutter project.
+This project was intended to simply convert my existing portfolio website www.jasoncaughers.com into a multi-platform mobile application that works on both Android and IOS devices.
+
+The main objective with this project was to simply become more skilled at using the Flutter framework and writing code using the Dart programming language, I feel that this app turned out great for a first version and I intend on getting this added to the Google Play Store as well as Apple App Store when I have added a number of new features and improvements. 
 
 ## Getting Started
 
-This project is my first real experience with creating an app with Flutter. I tried to essentially turn my website "www.jasoncaughers.com" into a mobile app for both IOS and Android Platforms. 
+To run this app simply either connect your Android or IOS Device to your computer (ensuring App Debugging/Developer options have been enabled) or run an emulator. Navigate to the project directory and simply run the following command to compile and launch the application on your desired device.
 
-The main purpose with this app was to gain key skills using flutter so I will be able to use this framework going forward in my career.
+- flutter run
